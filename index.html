@@ -1,22 +1,33 @@
-﻿<html>
-<title>나의 홈페이지</title>
+<html>
+<head> 
+<title>나의 페이지 제목</title>
+<style>
+p#p2 { background-color:blue }
+div.p_tag { 
+	background-color:orange
+}
+</style>
+</head>
+<!-- 주석 -->
 <body>
-<div class='data'>
- <a href="https://www.naver.com/">naver</a>
- <a href="https://www.google.com/">google</a>
- <img src="Maltese_puppy_cc4.jpeg" width=500 height=300><br>
- <p><a href="https://en.wikipedia.org/wiki/Maltese_(dog)"> Wiki 참조 </a></p>
- <p> 내가 가장 좋아하는 동물은 강아지입니다.</p>
- <p> 내가 가장 좋아하는 동물은 강아지입니다.11111</p>
- <p> 나는 그리고 네이버 홈페이지에 자주 갑니다.</p>
- <p class='p3'> 강아지 사진과 네이버 링크 </p>
- <p id='p4'> 간단한 나의 홈페이지를 만들다.</p>
+<div class="p_tag">
+	<p>첫번째 단락</p>
+	<p id="p2">두번째 단락</p>
+	<p>세번째 단락</p>
 </div>
-<div class='data'>
-<a href="https://www.kaggle.com/">kaggle</a>
-<a href="https://archive.ics.uci.edu/">UCI Machine Learning Repository</a>
- <p class='p3'> 고양이 사진 </p>
- <p id='p4'> 간단한 나의 홈페이지를 만들다.</p>
+첫번째 단락<br>
+두번째 단락<br>
+나의 웹 페이지<br>
+<div class="a_tag" style="background-color:orange">
+	<a href="https://www.naver.com/">네이버</a><br>
+	<a href="https://www.google.co.kr/" target="_blank">구글</a><br>
 </div>
+
+<div class="img_tag">
+	<img src="https://www.google.co.kr/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"><br>
+	<img src="dog.jpg"><br>
+	<a href="https://cdn.pixabay.com/photo/2019/05/01/22/16/dog-4172255_960_720.jpg"> <img src="dog.jpg"><br></a>
+</div>
+
 </body>
 </html>
